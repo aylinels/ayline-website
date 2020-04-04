@@ -1,0 +1,117 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    margin: 0;
+}
+
+* {box-sizing: border-box}
+body {margin:0}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+body {
+	font-family: Termina;
+	margin-left: 40px;
+  overflow-x: hidden;
+}
+
+a {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	top: -270px;
+	left: -10px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: blue;
+  }
+
+.home {
+  font-size: 60px;
+}
+
+.line {
+  position: absolute;
+  left: 3%;
+  top: 15%;
+  height: .2vh;
+  width: 80vw;
+  background-color: black;
+}
+
+#sticker {
+  position: relative;
+  top: 18vh;
+  left: 53.2vw;
+}
+
+#home {
+  position: absolute;
+  font-family: Termina;
+  color: black;
+  font-size: 30px;
+  top: 37vh;
+  left: 54.7vw;
+  opacity: 0;
+}
+
+#img1 {
+  position: absolute;
+  top: 12vh;
+  left: -60vw;
+  transition: 1s;
+}
+
+h1 {
+  position: absolute;
+  top: 23vh;
+  left: 60vh;
+}
+
+p{
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  top: 30vh;
+  left: 60vh;
+  font-size: 20px;
+  width: 60vh;
+  color: black;
+  padding: -10px 3px 0 3px;
+  text-align: justify;
+}
+
+#email {
+  position: absolute;
+  top: 43vh;
+  left: 60vh;
+}
+
+#email2 {
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+  top: 44.4vh;
+  left: 66.5vh;
+}
+
+#CV {
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+  top: 48.5vh;
+  left: 58.5vh;
+}
+
+#me {
+  position: absolute;
+  top: 24vh;
+  left: 5.5vh;
+}

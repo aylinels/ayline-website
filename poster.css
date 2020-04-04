@@ -1,0 +1,111 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    margin: 0;
+   font-size: 50px;
+}
+
+* {box-sizing: border-box}
+body {margin:0}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+a {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	top: -150px;
+	left: -10px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: line-through;
+  }
+
+#img1{
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+}
+
+.line{
+  position: absolute;
+  left: 92vw;
+  top: 27vh;
+  height: .2vh;
+  width: 6vw;
+  transform: rotate(40deg);
+  background-color: white;
+}
+
+.line2{
+  position: absolute;
+  left: 92vw;
+  top: 27vh;
+  height: .2vh;
+  width: 6vw;
+  transform: rotate(-40deg);
+  background-color: white;
+}
+
+.white{
+  position: absolute;
+  left: 0vw;
+  top: 110vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+h1{
+  position: absolute;
+  font-family: 'Gotu', sans-serif;
+  color: black;
+  top: 5vh;
+  left: 5vw;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+#date{
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  color: black;
+  top: 11.5vh;
+  left: 21vw;
+  font-size: 1rem;
+}
+
+.text{
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  height: 50vh;
+  width: 40vw;
+  text-align: justify;
+}
+
+p{
+  position: absolute;
+  font-family: 'Assistant', sans-serif;
+  color: black;
+  top: 2vh;
+  left: 15%;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+
+#img2{
+  position: absolute;
+  top: 20vh;
+  left: -10vh;
+}
+

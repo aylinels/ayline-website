@@ -1,0 +1,229 @@
+html {
+   animation-name: fadeIn; 
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    margin: 0;
+}
+
+* {box-sizing: border-box}
+body {margin:0}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+	font-family: Termina;
+	font-size: 50px;
+	margin-left: 40px;
+  margin-top: -40px;
+  overflow: hidden;
+}
+
+
+.circle {
+  position: absolute;
+  height: 125vh;
+  width: 125vh;
+  background-color: black;
+  border-radius: 50%;
+  left: 40%;
+/*  top: -270px;*/
+}
+
+#plus{
+  position: relative;
+  color: white;
+  font-size: 120rem;  
+  font-family: 'Comic Neue', cursive;
+  left: -2%;
+  top: -123vh;
+}
+
+.square1{
+  position: absolute;
+  background-color: black;
+  width: 20vh;
+  height: 60vh;
+  left: 66.5%;
+  top: 11%;
+  animation-name: up;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.square2{
+  position: absolute;
+  background-color: black;
+  width: 20vh;
+  height: 60vh;
+  left: 66.5%;
+  top: 110%;
+  animation-name: down;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.square3{
+  position: absolute;
+  background-color: black;
+  width: 60vh;
+  height: 20vh;
+  left: 40%;
+  top: 51%;
+  animation-name: left;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.square4{
+  position: absolute;
+  background-color: black;
+  width: 60vh;
+  height: 20vh;
+  left: 100%;
+  top: 51%;
+  animation-name: right;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up {
+ from {height: 60vh;}
+  to {height: 1vh;}
+}
+
+@keyframes down {
+ from {top: 51%;}
+  to {top: 110%;
+      height: 1vh;}
+}
+
+@keyframes left {
+ from {left: 42%;}
+  to {left: 42%;
+      width: 1vh;}
+}
+
+@keyframes right {
+ from {left: 66.5%;}
+  to {left: 100%;
+      width: 1vh;}
+}
+
+h1 {
+  z-index: 1;
+  color: black;
+
+}
+
+a {
+	position: relative;
+	font-size: 30px;
+	display: inline-block;
+	padding: 10px;
+	top: -13vh;
+  left: -10px;
+	color: black;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: blue;
+}
+
+#bio{
+  font-size: 20px;
+  width: 60vh;
+}
+
+#sticker {
+  position: absolute;
+  top: 2%;
+  left: 37%;
+  animation-name: delay;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+#sticker2 {
+  position: absolute;
+  top: 19%;
+  left: -4%;
+  animation-name: delay;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+#sticker3 {
+  position: absolute;
+  top: -13%;
+  left: -1%;
+  animation-name: delay;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s
+  opacity: 0;
+}
+
+@keyframes delay {
+ from {opacity: 0;}
+  to {opacity: 1;}
+}
+/*
+circle {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 45%;
+  left: 35%;
+  top: -270px;
+  transform: rotate(20deg)
+}*/
+
+/*#plus:hover {
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}*/
+
+/*.mySlides {
+  position: absolute;
+  width: 200vw;
+  height: 90vh;
+  top: 10vh;
+  left: 0%;
+  z-index: 10;
+}
+
+*/
+
+
